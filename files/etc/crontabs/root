@@ -1,0 +1,4 @@
+#01 23 * * * /usr/sbin/DMRIDUpdate.sh
+#05 23 * * * /usr/sbin/BMMasterUpdate.sh
+#06 23 * * * /usr/sbin/YSFHostsUpdate.sh
+00 5 * * 5 sleep 5 && touch /etc/banner && reboot
